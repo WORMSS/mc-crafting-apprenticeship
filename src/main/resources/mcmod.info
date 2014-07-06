@@ -1,0 +1,21 @@
+[
+{
+  "modid": "CraftingApprenticeship",
+  "name": "Crafting Apprenticeship",
+  "description": "Crafting, but with hardwork",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "http://github.com/WORMSS/CraftingApprenticeship",
+  "updateUrl": "",
+  "authorList": [
+    "WORMSS"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
