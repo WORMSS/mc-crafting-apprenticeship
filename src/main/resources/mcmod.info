@@ -1,6 +1,5 @@
-[
-{
-  "modid": "CraftingApprenticeship",
+[{
+  "modid": "CrAp",
   "name": "Crafting Apprenticeship",
   "description": "Crafting, but with hardwork",
   "version": "1.0",
@@ -17,5 +16,4 @@
   "parent":"",
   "dependencies": [
   ]
-}
-]
+}]

@@ -1,7 +1,7 @@
-package net.wormss.craftingapprenticeship.handlers;
+package net.wormss.crap.handlers;
 
-import net.wormss.craftingapprenticeship.references.R;
-import net.wormss.craftingapprenticeship.references.Strings;
+import net.wormss.crap.references.R;
+import net.wormss.crap.references.Strings;
 import cpw.mods.fml.common.event.FMLInterModComms;
 
 public class InterMod {

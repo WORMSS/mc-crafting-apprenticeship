@@ -1,4 +1,4 @@
-package net.wormss.craftingapprenticeship.client.gui;
+package net.wormss.crap.client.gui;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package net.wormss.craftingapprenticeship.references;
+package net.wormss.crap.references;
 
 public class Strings {
 	public static class url {

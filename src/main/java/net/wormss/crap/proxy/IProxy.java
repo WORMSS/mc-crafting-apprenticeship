@@ -1,4 +1,4 @@
-package net.wormss.craftingapprenticeship.proxy;
+package net.wormss.crap.proxy;
 
 public interface IProxy {
 	public void registerItems();

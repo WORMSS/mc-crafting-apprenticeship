@@ -1,24 +1,19 @@
-package net.wormss.craftingapprenticeship.handlers;
+package net.wormss.crap.handlers;
 
 import java.io.File;
 import java.util.List;
 
-import cpw.mods.fml.client.event.ConfigChangedEvent;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.FMLLog;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-
-import net.minecraftforge.common.config.ConfigCategory;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
-import net.wormss.craftingapprenticeship.references.R;
-import net.wormss.craftingapprenticeship.utility.ModLog;
+import net.wormss.crap.references.R;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
 public class ConfigHandler {
 	static class EventRegister {
 		@SubscribeEvent
 		public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event) {
-			ModLog.log("configChanged:", event.modID);
 			if (event.modID.equalsIgnoreCase(R.mod.ID)) {
 				loadConfig();
 	        }

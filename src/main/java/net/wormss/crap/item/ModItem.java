@@ -1,12 +1,12 @@
-package net.wormss.craftingapprenticeship.item;
+package net.wormss.crap.item;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.wormss.craftingapprenticeship.references.Textures;
+import net.wormss.crap.references.Textures;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class ModItem extends Item {
 	

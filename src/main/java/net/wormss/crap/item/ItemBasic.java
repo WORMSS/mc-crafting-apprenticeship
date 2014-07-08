@@ -1,6 +1,6 @@
-package net.wormss.craftingapprenticeship.item;
+package net.wormss.crap.item;
 
-import net.wormss.craftingapprenticeship.references.Names;
+import net.wormss.crap.references.Names;
 
 public class ItemBasic extends ModItem {
 	public ItemBasic() {
