@@ -18,12 +18,12 @@ public class ModItem extends Item {
 	
 	@Override
 	public String getUnlocalizedName() {
-		return String.format("item.%s%s", Textures.RESOUCE_PREFIX, getUnwrappedUnlocalisedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalisedName(super.getUnlocalizedName()));
 	}
 
 	@Override
 	public String getUnlocalizedName(ItemStack stack) {
-		return String.format("item.%s%s", Textures.RESOUCE_PREFIX, getUnwrappedUnlocalisedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalisedName(super.getUnlocalizedName()));
 	}
 	
 	protected String getUnwrappedUnlocalisedName(String name) {

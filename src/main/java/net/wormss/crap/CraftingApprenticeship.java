@@ -1,5 +1,6 @@
 package net.wormss.crap;
 
+import net.wormss.crap.block.ModBlocks;
 import net.wormss.crap.handlers.ConfigHandler;
 import net.wormss.crap.handlers.CraftingHandler;
 import net.wormss.crap.handlers.InterMod;
@@ -25,7 +26,7 @@ public class CraftingApprenticeship {
 		//network handling
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 		ModItems.init();
-		//initialise blocks
+		ModBlocks.init();
 		InterMod.version_checker.addVersionCheck();
 	}
 
@@ -33,7 +34,6 @@ public class CraftingApprenticeship {
 	public void init(FMLInitializationEvent event) {
 		//register gui
 		//register tile entities
-		//register crafting recipes
 		CraftingHandler.init();
 		//general event handling
 	}
