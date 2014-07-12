@@ -1,9 +1,9 @@
 package net.wormss.crap.item;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.wormss.crap.creative.ModCreativeTabs;
 import net.wormss.crap.references.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,7 +12,7 @@ public class ModItem extends Item {
 	
 	public ModItem() {
 		super();
-		this.setCreativeTab(CreativeTabs.tabMisc);
+		this.setCreativeTab(ModCreativeTabs.general);
 		this.setNoRepair();
 	}
 	
