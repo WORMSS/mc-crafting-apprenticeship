@@ -4,6 +4,7 @@ import net.wormss.crap.block.ModBlocks;
 import net.wormss.crap.handlers.ConfigHandler;
 import net.wormss.crap.handlers.CraftingHandler;
 import net.wormss.crap.handlers.InterMod;
+import net.wormss.crap.handlers.SmeltingHandler;
 import net.wormss.crap.item.ModItems;
 import net.wormss.crap.proxy.IProxy;
 import net.wormss.crap.references.R;
@@ -35,6 +36,7 @@ public class CraftingApprenticeship {
 		//register gui
 		//register tile entities
 		CraftingHandler.init();
+		SmeltingHandler.init();
 		//general event handling
 	}
 

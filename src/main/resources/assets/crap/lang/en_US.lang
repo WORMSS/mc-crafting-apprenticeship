@@ -2,3 +2,8 @@
 #Item localisations
 item.crap:basic.name=Basic Item
 item.crap:hammer.name=Crafting Hammer
+item.crap:milledFlour.name=Milled Flour
+
+#Block localisations
+tile.crap:basicBlock.name=Basic Block
+tile.crap:crafter.name=Crafter's Bench

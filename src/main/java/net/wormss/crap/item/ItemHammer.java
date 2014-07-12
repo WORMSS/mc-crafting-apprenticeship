@@ -6,5 +6,6 @@ public class ItemHammer extends ModItem {
 	public ItemHammer() {
 		super();
 		this.setUnlocalizedName(Names.items.hammer);
+		this.maxStackSize = 1;
 	}
 }

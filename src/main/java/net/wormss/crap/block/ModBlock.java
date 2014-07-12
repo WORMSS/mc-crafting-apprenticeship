@@ -8,10 +8,10 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.IIcon;
 import net.wormss.crap.references.Textures;
 
 public class ModBlock extends Block {
-	
 	public ModBlock() {
 		this(Material.rock);
 	}
@@ -22,20 +22,25 @@ public class ModBlock extends Block {
 	}
 
 	@Override
-    public String getUnlocalizedName()
-    {
+    public String getUnlocalizedName() {
         return String.format("tile.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override
     @SideOnly(Side.CLIENT)
-    public void registerBlockIcons(IIconRegister iconRegister)
-    {
-        blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
+    public void registerBlockIcons(IIconRegister iconRegister) {
+        blockIcon = this.registerAndGetIcon(iconRegister);
     }
 
-    protected String getUnwrappedUnlocalizedName(String unlocalizedName)
-    {
+    protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+    }
+    
+    protected IIcon registerAndGetIcon(IIconRegister iconRegister) {
+    	return registerAndGetIcon(iconRegister, "");
+    }
+    
+    protected IIcon registerAndGetIcon(IIconRegister iconRegister, String postfix) {
+    	return iconRegister.registerIcon(String.format("%s%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName()), postfix));
     }
 }
