@@ -52,3 +52,4 @@ Roadmap
 - Tinning nails
 - Panting struture
 (not sure how to link this to maintance)
+- Statue chiseling.
