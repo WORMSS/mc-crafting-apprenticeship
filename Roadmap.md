@@ -60,3 +60,5 @@ Roadmap
 - Painting struture (not sure how to link this to maintance)
 - Statue chiseling.
 - Have to keep checking plans when building.
+- Water wheel drive. Stress/overspeed causes more damage.
+- Water wheel gearing system.
